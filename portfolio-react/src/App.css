@@ -124,7 +124,6 @@ h3 {
   width: 50%;
   border: 2px solid black;
   border-radius: 10px;
-
 }
 
 ul {
@@ -176,3 +175,27 @@ a {
   object-fit:cover;
   border: 3px dotted hotpink;
 }
+
+/* .projects {
+  text-align: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.home-page {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+
+  .header-name {
+    color: whitesmoke;
+  }
+  
+  
